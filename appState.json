@@ -30,12 +30,7 @@
           "memory": 128,
           "layers": []
         },
-        "triggers": [
-          {
-            "resourceName": "apigusEast1sachithraAPInameqainduany",
-            "config": {}
-          }
-        ]
+        "triggers": []
       }
     },
     "rootNode": "d27af57d-982c-4e61-8612-840fe012cf18",
@@ -103,7 +98,7 @@
     "projectRegion": "us-east-1",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1572257918718
+    "lastSave": 1572257946837
   },
   "VCS_STATE": {
     "provider": "GitHub",
