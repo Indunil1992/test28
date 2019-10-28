@@ -22,7 +22,7 @@
         "children": [],
         "isRemovable": true,
         "filePath": "test28/lambda.js",
-        "code": "\nexports.handler = function (event, context, callback) {\n \n\n    callback(null, { \"message\": \"Successfully executed\" });\n}",
+        "code": "\nexports.handler = function (event, context, callback) {\n\n\n    callback(null, { \"message\": \"Successfully executed\" });\n}",
         "config": {
           "runtime": "nodejs8.10",
           "handler": "handler",
@@ -38,19 +38,7 @@
       "7e00c5ac-ee4a-4f31-8f90-2f980bf354ff"
     ],
     "currentFileId": "7e00c5ac-ee4a-4f31-8f90-2f980bf354ff",
-    "resources": {
-      "s3induniltrigger": {
-        "name": "s3induniltrigger",
-        "type": "S3",
-        "config": {
-          "mode": 1,
-          "bucket": {
-            "region": "us-east-1",
-            "name": "indunil.trigger"
-          }
-        }
-      }
-    },
+    "resources": {},
     "customTemplate": {
       "dialect": null,
       "definitions": null
@@ -83,7 +71,7 @@
     "projectRegion": "us-east-1",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1572257689483
+    "lastSave": 1572257719358
   },
   "VCS_STATE": {
     "provider": "GitHub",
