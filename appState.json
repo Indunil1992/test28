@@ -1,0 +1,76 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "d27af57d-982c-4e61-8612-840fe012cf18": {
+        "id": "d27af57d-982c-4e61-8612-840fe012cf18",
+        "parent": null,
+        "name": "test28",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "7e00c5ac-ee4a-4f31-8f90-2f980bf354ff"
+        ],
+        "isRemovable": false,
+        "filePath": "test28"
+      },
+      "7e00c5ac-ee4a-4f31-8f90-2f980bf354ff": {
+        "id": "7e00c5ac-ee4a-4f31-8f90-2f980bf354ff",
+        "parent": "d27af57d-982c-4e61-8612-840fe012cf18",
+        "name": "lambda.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "test28/lambda.js",
+        "code": "exports.handler = function(event, context, callback) {\n    \n    callback(null, {\"message\": \"Successfully executed\"});\n}",
+        "config": {
+          "runtime": "nodejs8.10",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": []
+      }
+    },
+    "rootNode": "d27af57d-982c-4e61-8612-840fe012cf18",
+    "openFiles": [
+      "7e00c5ac-ee4a-4f31-8f90-2f980bf354ff"
+    ],
+    "currentFileId": "7e00c5ac-ee4a-4f31-8f90-2f980bf354ff",
+    "resources": {},
+    "customTemplate": {
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "test28",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "platformRegions": {},
+    "lastSave": 1572257263974
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "test28",
+      "url": "https://github.com/Indunil1992/test28"
+    }
+  }
+}
