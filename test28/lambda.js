@@ -4,8 +4,8 @@ const s3 = new AWS.S3();
 exports.handler = function (event, context, callback) {
     s3.listObjects({
         'Bucket': 'indunil.trigger',
-        'MaxKeys': 109,
-        'Prefix': 'hiru'
+        'MaxKeys': 5,
+        'Prefix': '1'
     }).promise()
         .then(data => {
             console.log(data);           // successful response
